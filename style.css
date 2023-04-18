@@ -1,5 +1,47 @@
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
 }
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  text-align:center;
+}
+nav {
+  padding: 10px;
+}
+
+nav a { 
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#cdcbcb;
+
+}
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  font-size:9pt;
+  text-align:center; 
+}
+
+section > p {
+  margin-left:auto;
+  margin-right:auto;
+  width:800px;
+  text-align:center;
+}
+
+section div {
+text-align:center;  
+float:left;  
+width:25%;
+background-color:#cdcbcb;
+}
+
+
+
